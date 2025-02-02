@@ -119,7 +119,7 @@ dataset/UrbanSound8K/audio/fold3/107228-5-0-0.wav	5
 dataset/UrbanSound8K/audio/fold4/109711-3-2-4.wav	3
 ```
 # 5.特征提取（可选，如果进行特征提取，训练耗时提升36倍）,已提取的特征文件和已训练的模型文件下载。模型放到model目录下，特征放到features目录下。
-链接: https://pan.baidu.com/s/15ziJovO3t41Nqgqtmovuew
+链接: https://pan.baidu.com/s/15ziJovO3t41Nqgqtmovuew  
 提取码: 8a59 
 
 ```shell
