@@ -3,9 +3,9 @@
 # 基于Pytorch的声音事件检测分类系统
 
 ![python version](https://img.shields.io/badge/python-3.8+-orange.svg)
-![GitHub forks](https://img.shields.io/github/forks/Shybert-AI/Prediction-of-stock-price-based-on-BP-neural-network)
-![GitHub Repo stars](https://img.shields.io/github/stars/Shybert-AI/Prediction-of-stock-price-based-on-BP-neural-network)
-![GitHub](https://img.shields.io/github/license/Shybert-AI/Prediction-of-stock-price-based-on-BP-neural-network)
+![GitHub forks](https://img.shields.io/github/forks/Shybert-AI/AudioClassificationModelZoo-Pytorch)
+![GitHub Repo stars](https://img.shields.io/github/stars/Shybert-AI/AudioClassificationModelZoo-Pytorch)
+![GitHub](https://img.shields.io/github/license/Shybert-AI/AudioClassificationModelZoo-Pytorch)
 ![支持系统](https://img.shields.io/badge/支持系统-Win/Linux/MAC-9cf)
 # 1.简介
 &emsp;&emsp;项目是基于Urbansound8K数据集提取MEl谱特征的Pytorch的声音分类项目，旨在实现对各种环境声音、动物叫声和语种的识别。项目提供了20多种声音分类模型，
@@ -119,7 +119,8 @@ dataset/UrbanSound8K/audio/fold3/107228-5-0-0.wav	5
 dataset/UrbanSound8K/audio/fold4/109711-3-2-4.wav	3
 ```
 # 5.特征提取（可选，如果进行特征提取，训练耗时提升36倍）,已提取的特征文件和已训练的模型文件下载。模型放到model目录下，特征放到features目录下。
-链接: https://pan.baidu.com/s/15ziJovO3t41Nqgqtmovuew 提取码: 8a59 
+链接: https://pan.baidu.com/s/15ziJovO3t41Nqgqtmovuew
+提取码: 8a59 
 
 ```shell
 python extract_feature.py
