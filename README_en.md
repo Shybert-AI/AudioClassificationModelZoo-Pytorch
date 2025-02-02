@@ -3,9 +3,9 @@
 # Pytorch based sound event detection and classification system
 
 ![python version](https://img.shields.io/badge/python-3.8+-orange.svg)
-![GitHub forks](https://img.shields.io/github/forks/Shybert-AI/Prediction-of-stock-price-based-on-BP-neural-network)
-![GitHub Repo stars](https://img.shields.io/github/stars/Shybert-AI/Prediction-of-stock-price-based-on-BP-neural-network)
-![GitHub](https://img.shields.io/github/license/Shybert-AI/Prediction-of-stock-price-based-on-BP-neural-network)
+![GitHub forks](https://img.shields.io/github/forks/Shybert-AI/AudioClassificationModelZoo-Pytorch)
+![GitHub Repo stars](https://img.shields.io/github/stars/Shybert-AI/AudioClassificationModelZoo-Pytorch)
+![GitHub](https://img.shields.io/github/license/Shybert-AI/AudioClassificationModelZoo-Pytorch)
 ![support system](https://img.shields.io/badge/支持系统-Win/Linux/MAC-9cf)
 # 1.introduction
 &emsp;&emsp;The project is a sound classification project based on the Urbansound8K dataset Extracting MEL spectral features Pytorch, aimed at recognizing various environmental sounds, animal calls, and languages. The project provides over 20 sound classification models,
@@ -118,11 +118,13 @@ dataset/UrbanSound8K/audio/fold3/107228-5-0-0.wav	5
 dataset/UrbanSound8K/audio/fold4/109711-3-2-4.wav	3
 ```
 # 5.Feature extraction (optional, if feature extraction is performed, training time will be increased by 36 times), download the extracted feature files and trained model files. Place the model in the model directory and the features in the features directory.
-URL: https://pan.baidu.com/s/15ziJovO3t41Nqgqtmovuew Extracted code: 8a59 
+URL: https://pan.baidu.com/s/15ziJovO3t41Nqgqtmovuew   
+Extracted code: 8a59 
 ```shell
 python extract_feature.py
 ```
-# 6.Training can be carried out by specifying the parameter of -- model_type to specify the model for model training. For example：EcapaTdnn、PANNS（CNN6)、TDNN、PANNS（CNN14)、PANNS（CNN10)、DTFAT(MaxAST)、EAT-M-Transformer、AST、TDNN_GRU_SE、mn10_as、dymn10_as、ERes2NetV2、ResNetSE_GRU、ResNetSE、CAMPPlus、HTS-AT、EffilecentNet_B2、ERes2Net、Res2Net、MobileNetV4  
+# 6.Training can be carried out by specifying the parameter of -- model_type to specify the model for model training. 
+&emsp;&emsp;For example：EcapaTdnn、PANNS（CNN6)、TDNN、PANNS（CNN14)、PANNS（CNN10)、DTFAT(MaxAST)、EAT-M-Transformer、AST、TDNN_GRU_SE、mn10_as、dymn10_as、ERes2NetV2、ResNetSE_GRU、ResNetSE、CAMPPlus、HTS-AT、EffilecentNet_B2、ERes2Net、Res2Net、MobileNetV4  
 ```shell
 python train.py --model_type EAT-M-Transformer
 ```
