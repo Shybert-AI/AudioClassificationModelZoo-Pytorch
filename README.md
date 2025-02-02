@@ -125,7 +125,8 @@ dataset/UrbanSound8K/audio/fold4/109711-3-2-4.wav	3
 ```shell
 python extract_feature.py
 ```
-# 6.训练,可以通过指定--model_type的参数来指定模型，进行模型训练。如：EcapaTdnn、PANNS（CNN6)、TDNN、PANNS（CNN14)、PANNS（CNN10)、DTFAT(MaxAST)、EAT-M-Transformer、AST、TDNN_GRU_SE、mn10_as、dymn10_as、ERes2NetV2、ResNetSE_GRU、ResNetSE、CAMPPlus、HTS-AT、EffilecentNet_B2、ERes2Net、Res2Net、MobileNetV4  
+# 6.训练,可以通过指定--model_type的参数来指定模型，进行模型训练。
+&emsp;&emsp;如：EcapaTdnn、PANNS（CNN6)、TDNN、PANNS（CNN14)、PANNS（CNN10)、DTFAT(MaxAST)、EAT-M-Transformer、AST、TDNN_GRU_SE、mn10_as、dymn10_as、ERes2NetV2、ResNetSE_GRU、ResNetSE、CAMPPlus、HTS-AT、EffilecentNet_B2、ERes2Net、Res2Net、MobileNetV4  
 ```shell
 python train.py --model_type EAT-M-Transformer
 ```
