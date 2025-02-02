@@ -1,0 +1,21 @@
+# .gitignore
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore files related to virtual environments
+venv/
+*.venv
+.env
+
+
+##	
+egs/audioset/test_eval_run.sh
+egs/audioset/some_logs
